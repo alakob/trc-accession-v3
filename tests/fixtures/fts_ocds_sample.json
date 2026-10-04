@@ -1,0 +1,59 @@
+{
+  "_comment": "SYNTHETIC SAMPLE DATA for tests: invented notice, structure modelled on a Find a Tender OCDS release package (lots extension)",
+  "uri": "https://example.invalid/api/1.0/ocdsReleasePackages/sample",
+  "version": "1.1",
+  "publishedDate": "2026-09-20T09:00:00Z",
+  "publisher": {"name": "Synthetic sample"},
+  "extensions": ["https://raw.githubusercontent.com/open-contracting-extensions/ocds_lots_extension/v1.1.5/extension.json"],
+  "releases": [
+    {
+      "ocid": "ocds-h6vhtk-0sample",
+      "id": "ocds-h6vhtk-0sample-512345-2026-09-01T10:00:00Z",
+      "date": "2026-09-01T10:00:00Z",
+      "tag": ["tender"],
+      "initiationType": "tender",
+      "language": "en",
+      "buyer": {"id": "GB-SAMPLE-1", "name": "Example NHS Foundation Trust (SAMPLE)"},
+      "tender": {
+        "id": "FTS-SAMPLE-77",
+        "title": "Laboratory reagents (SAMPLE)",
+        "status": "active",
+        "value": {"amount": 150000, "currency": "GBP"},
+        "lots": [
+          {"id": "1", "title": "Monoclonal antibodies", "description": "Antibody panels for flow cytometry.", "status": "active", "value": {"amount": 60000, "currency": "GBP"}},
+          {"id": "2", "title": "Nucleic acid extraction kits", "status": "active", "value": {"amount": 90000, "currency": "GBP"}}
+        ],
+        "items": [
+          {"id": "1", "relatedLot": "1", "classification": {"scheme": "CPV", "id": "33696500", "description": "Laboratory reagents"}},
+          {"id": "2", "relatedLot": "2", "classification": {"scheme": "CPV", "id": "33696300", "description": "Chemical reagents"}}
+        ]
+      }
+    },
+    {
+      "ocid": "ocds-h6vhtk-0sample",
+      "id": "ocds-h6vhtk-0sample-512399-2026-09-10T12:00:00Z",
+      "date": "2026-09-10T12:00:00Z",
+      "tag": ["tenderUpdate"],
+      "initiationType": "tender",
+      "language": "en",
+      "tender": {
+        "id": "FTS-SAMPLE-77",
+        "title": "Laboratory reagents (SAMPLE)",
+        "status": "active",
+        "value": {"amount": 165000, "currency": "GBP"},
+        "lots": [
+          {"id": "1", "title": "Monoclonal antibodies", "description": "Antibody panels for flow cytometry.", "status": "active", "value": {"amount": 60000, "currency": "GBP"}},
+          {"id": "2", "title": "Nucleic acid extraction kits", "status": "active", "value": {"amount": 90000, "currency": "GBP"}},
+          {"id": "3", "title": "Consumables", "status": "active", "value": {"amount": 15000, "currency": "GBP"}}
+        ],
+        "items": [
+          {"id": "1", "relatedLot": "1", "classification": {"scheme": "CPV", "id": "33696500"},
+           "additionalClassifications": [{"scheme": "CPV", "id": "33651520"}, {"scheme": "UNSPSC", "id": "41116100"}]},
+          {"id": "2", "relatedLot": "2", "classification": {"scheme": "CPV", "id": "33696300"}},
+          {"id": "3", "relatedLot": "3", "classification": {"scheme": "CPV", "id": "33140000"}},
+          {"id": "4", "classification": {"scheme": "CPV", "id": "33000000"}}
+        ]
+      }
+    }
+  ]
+}

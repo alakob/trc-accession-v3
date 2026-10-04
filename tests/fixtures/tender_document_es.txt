@@ -1,0 +1,17 @@
+DATOS SINTÉTICOS DE EJEMPLO (SAMPLE) - texto inventado para las pruebas del extractor heurístico
+
+PLIEGO DE PRESCRIPCIONES TÉCNICAS - Suministro de reactivos de laboratorio
+
+1. OBJETO DEL CONTRATO
+El objeto del contrato está dividido en los siguientes lotes:
+
+Lote 1: Reactivos de bioquímica clínica. Presupuesto base de licitación: 120.000,00 EUR (IVA excluido).
+   Incluye reactivos, calibradores y controles para los analizadores del laboratorio central.
+Lote 2 - Material fungible de laboratorio. Presupuesto: 45.500,00 €
+   Puntas de pipeta, tubos y placas.
+Lote nº 3: Mantenimiento preventivo de analizadores
+
+Los licitadores podrán presentar oferta a uno o varios lotes; ver el lote 2 para las condiciones de entrega.
+
+2. RESUMEN
+Lote 1: Reactivos de bioquímica clínica

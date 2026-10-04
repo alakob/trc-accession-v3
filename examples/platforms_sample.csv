@@ -1,0 +1,18 @@
+name,url,short_name,country,data_format,priority,notes
+Plataforma de Contratación del Sector Público,https://contrataciondelsectorpublico.gob.es,PLACSP,ES,codice,100,SAMPLE ROW (real platform; new domain of PLACSP)
+Find a Tender,https://www.find-tender.service.gov.uk,,GB,ocds,100,SAMPLE ROW (real platform)
+Contracts Finder,https://www.contractsfinder.service.gov.uk,,GB,ocds,,SAMPLE ROW (real platform)
+Public Contracts Scotland,https://www.publiccontractsscotland.gov.uk,PCS,GB,html,,SAMPLE ROW (real platform)
+Sell2Wales,https://www.sell2wales.gov.wales,,GB,html,,SAMPLE ROW (real platform)
+eTendersNI,https://etendersni.gov.uk,,GB,html,,SAMPLE ROW (real platform)
+TED - Tenders Electronic Daily,https://ted.europa.eu,TED,,eforms,50,SAMPLE ROW (real platform; EU-wide so no country)
+SAM.gov,https://sam.gov,,US,other,,SAMPLE ROW (real platform)
+BOAMP,https://www.boamp.fr,,FR,html,,SAMPLE ROW (real platform)
+Bund.de Ausschreibungen,https://www.service.bund.de,,DE,html,,SAMPLE ROW (real platform)
+Acquisti in Rete PA,https://www.acquistinretepa.it,,IT,html,,SAMPLE ROW (real platform)
+ANAC - Banca Dati Nazionale dei Contratti Pubblici,https://dati.anticorruzione.it,ANAC,IT,ocds,,SAMPLE ROW (real platform)
+Portal BASE,https://www.base.gov.pt,BASE,PT,html,,SAMPLE ROW (real platform)
+TenderNed,https://www.tenderned.nl,,NL,html,,SAMPLE ROW (real platform)
+Mercell,https://www.mercell.com,,,html,,SAMPLE ROW (real platform; multi-country)
+SAP Ariba Discovery,https://discovery.ariba.com,Ariba,,other,,SAMPLE ROW (real platform; private buyers)
+Contracts Finder (search page),https://contractsfinder.service.gov.uk/Search,,GB,ocds,,SAMPLE ROW: deliberate duplicate of row 4 to show the check

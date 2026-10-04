@@ -1,0 +1,6 @@
+Platform Name;Website;Abbreviation;Country;Format;Comment
+Find a Tender;https://www.find-tender.service.gov.uk/;;UK;OCDS;already seeded
+Public Contracts Scotland;https://www.publiccontractsscotland.gov.uk;;GB;html;
+Public Contracts Scotland;https://publiccontractsscotland.gov.uk/search;;GB;html;same domain again
+;https://nameless.example;;;;
+BOAMP;https://www.boamp.fr;;FRANCE;xml;bad country and format
